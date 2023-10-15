@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="ex.css">
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="slide-container swiper">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="Card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+
+                <div class="card-image">
+                    <img src="images/picofme.png" alt="" class="card-img">
+                </div>
+            </div>
+            
+                <div class="card-content">
+                    <h2 class="name">Kotha Sudhakar</h2>
+                    <p class="description">Placed in google</p>
+                    with 15.5LAP
+
+                    <button class="button">View More</button>
+                </div>
+      </div>
+      <div class="Card swiper-slide">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+        <div class="card-image">
+            <img src="images/2.png" alt="" class="card-img">
+        </div>
+        </div>
+        <div class="card-content">
+            <h2 class="name">Kotha Sudhakar</h2>
+            <p class="description">Placed in google</p>
+            with 15.5LAP
+
+            <button class="button">View More</button>
+        </div>
+</div>
+<div class="Card swiper-slide">
+    <div class="image-content">
+        <span class="overlay"></span>
+
+    <div class="card-image">
+        <img src="images/picofme.png" alt="" class="card-img">
+    </div>
+    </div>
+    <div class="card-content">
+        <h2 class="name">Kotha Sudhakar</h2>
+        <p class="description">Placed in google</p>
+        with 15.5LAP
+
+        <button class="button">View More</button>
+    </div>
+</div>
+<div class="Card swiper-slide">
+    <div class="image-content">
+        <span class="overlay"></span>
+
+    <div class="card-image">
+        <img src="images/picofme.png" alt="" class="card-img">
+    </div>
+    </div>
+    <div class="card-content">
+        <h2 class="name">Kotha Sudhakar</h2>
+        <p class="description">Placed in google</p>
+        with 15.5LAP
+
+        <button class="button">View More</button>
+    </div>
+</div>
+<div class="Card swiper-slide">
+    <div class="image-content">
+        <span class="overlay"></span>
+
+    <div class="card-image">
+        <img src="images/picofme.png" alt="" class="card-img">
+    </div>
+    </div>
+    <div class="card-content">
+        <h2 class="name">Kotha Sudhakar</h2>
+        <p class="description">Placed in google</p>
+        with 15.5LAP
+
+        <button class="button">View More</button>
+    </div>
+</div>
+<div class="Card swiper-slide">
+    <div class="image-content">
+        <span class="overlay"></span>
+
+    <div class="card-image">
+        <img src="images/picofme.png" alt="" class="card-img">
+    </div>
+    </div>
+    <div class="card-content">
+        <h2 class="name">Kotha Sudhakar</h2>
+        <p class="description">Placed in google</p>
+        with 15.5LAP
+
+        <button class="button">View More</button>
+    </div>
+</div>
+      
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </div>
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+     
+  </script>
+</body>
+
+</html>
